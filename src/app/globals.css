@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@100,200,300,400,500,700,900&display=swap");
+
+*{
+    font-family: 'Satoshi', sans-serif;
+}
+
+.back_white{
+    background-color: hsla(0, 0%, 100%, .05);
+    border-color: hsla(0, 0%, 100%, .1);
+    border-width: 1px;
+    border-radius: .5rem;
+}
